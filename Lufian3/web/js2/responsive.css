@@ -1,0 +1,59 @@
+@media (max-width: 992px) {
+	.text-extra-large{
+		font-size: 30px;
+	} 
+	#modal-compare .modal-dialog{
+		width: 800px;
+	}
+}
+@media (max-width: 776px) {
+	#customer_login .reg_select{
+	    width: 100%;
+	}
+	#customer_login .reg_select:last-child{
+	     width: 100%;
+	}
+	#modal-compare .modal-dialog{
+		width: 600px;
+		margin: 10px auto;
+	}
+}
+
+@media (max-width: 640px) {
+	.mobile_hidden{
+		display: none;
+	}
+	#modal-compare .modal-dialog{
+		width: 500px;
+		margin: 10px auto;
+	}
+		table.compare-list td{
+		    width: 130px;
+    max-width: 130px;
+    min-width: 130px;
+    text-align: center;
+	}
+	#modal-compare .table-wrapper{
+		margin-left: 130px;
+	}
+}
+
+
+
+@media (max-width: 412px) {
+	table.compare-list td{
+		    width: 130px;
+    max-width: 130px;
+    min-width: 130px;
+    text-align: center;
+	}
+	#modal-compare .table-wrapper{
+		margin-left: 130px;
+	}
+	#modal-compare .modal-dialog{
+		width: 350px;
+		margin: 10px auto;
+	}
+}
+
+

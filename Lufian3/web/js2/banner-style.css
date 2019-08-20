@@ -1,0 +1,233 @@
+.block-banners img{
+	height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: 100%;
+}
+.block-banners a{
+	position: relative;
+}
+.block-banners .banner-item{
+	margin-bottom: 30px;
+}
+.block-banners h3{
+	margin-bottom: 8px;
+}
+.block-banners h3:last-child{
+	margin-bottom: 0px;
+}
+.block-banners h3.add-spacing{
+	margin-bottom: 19px;
+}
+.block-banners .banner-content{
+	position: absolute;
+	padding: 33px 15px;
+}
+
+.block-banners .banner-content.top-left{
+	float: left;
+    top: 0;
+    left: 0;
+}
+.block-banners .banner-content.top-right{
+	float: right;
+    top: 0;
+    right: 0;
+}
+.block-banners .banner-content.top-center{
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.block-banners .banner-content.bottom-left{
+	float: left;
+    bottom: 0;
+    left: 0;
+}
+.block-banners .banner-content.bottom-right{
+	float: right;
+    bottom: 0;
+    right: 0;
+}
+.block-banners .banner-content.bottom-center{
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+.block-banners .banner-content.center-left{
+	float: left;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.block-banners .banner-content.center-right{
+	float: right;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.block-banners .banner-content.center{
+	float: right;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.block-banners .banner-content.full-width{
+	width: 100%;
+}
+
+.block-banners .banner-content.rotate,
+.block-banners .banner-content.rotate2{
+	position: absolute;
+	padding: 22px;
+
+}
+
+.block-banners .banner-content.rotate2.bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg) translateX(-100%);
+    -ms-transform: rotate(90deg) translateX(-100%);
+    -o-transform: rotate(90deg) translateX(-100%);
+    transform: rotate(90deg) translateX(-100%);
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+	transform-origin: bottom left;
+    white-space: nowrap;
+}
+
+.block-banners .banner-content.rotate2.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotate(90deg) translateY(100%);
+    -ms-transform: rotate(90deg) translateY(100%);
+    -o-transform: rotate(90deg) translateY(100%);
+    transform: rotate(90deg) translateY(100%);
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    -o-transform-origin: bottom right;
+	transform-origin: bottom right;
+    white-space: nowrap;
+}
+
+.block-banners .banner-content.rotate2.top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg) translateY(-100%);
+    -ms-transform: rotate(90deg) translateY(-100%);
+    -o-transform: rotate(90deg) translateY(-100%);
+    transform: rotate(90deg) translateY(-100%);
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+	transform-origin: top left;
+    white-space: nowrap;
+}
+
+.block-banners .banner-content.rotate2.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(90deg) translateX(100%);
+    -ms-transform: rotate(90deg) translateX(100%);
+    -o-transform: rotate(90deg) translateX(100%);
+    transform: rotate(90deg) translateX(100%);
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    -o-transform-origin: top right;
+	transform-origin: top right;
+    white-space: nowrap;
+}
+
+.block-banners .banner-content.rotate.bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: rotate(-90deg) translateY(100%);
+    -ms-transform: rotate(-90deg) translateY(100%);
+    -o-transform: rotate(-90deg) translateY(100%);
+    transform: rotate(-90deg) translateY(100%);
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+	transform-origin: bottom left;
+    white-space: nowrap;
+
+}
+.block-banners .banner-content.rotate.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotate(-90deg) translateX(100%);
+    -ms-transform: rotate(-90deg) translateX(100%);
+    -o-transform: rotate(-90deg) translateX(100%);
+    transform: rotate(-90deg) translateX(100%);
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    -o-transform-origin: bottom right;
+	transform-origin: bottom right;
+    white-space: nowrap;
+}
+.block-banners .banner-content.rotate.top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(-90deg) translateX(-100%);
+    -ms-transform: rotate(-90deg) translateX(-100%);
+    -o-transform: rotate(-90deg) translateX(-100%);
+    transform: rotate(-90deg) translateX(-100%);
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+	transform-origin: top left;
+    white-space: nowrap;
+}
+
+.block-banners .banner-content.rotate.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(-90deg) translateY(-100%);
+    -ms-transform: rotate(-90deg) translateY(-100%);
+    -o-transform: rotate(-90deg) translateY(-100%);
+    transform: rotate(-90deg) translateY(-100%);
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    -o-transform-origin: top right;
+	transform-origin: top right;
+    white-space: nowrap;
+}
+.stretch_row_content_no_spaces .banner-item{margin: 0 !important;}
+.section-big-banner .big-banner-bg{width:100%;}
